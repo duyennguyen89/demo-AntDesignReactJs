@@ -65,9 +65,9 @@ function AppHeader({ cartCount = 0 }) {
                 ]}
             />
 
-            <Typography.Title level={3} style={{ margin: 0, color: '#1890ff' }}>
+            <Typography.Title level={3} style={{ margin: 0, color: 'green' }}>
                 <span style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
-                    E-Commerce Store
+                    E-Commerce Store AntDesign UI
                 </span>
             </Typography.Title>
             <AppCart />
